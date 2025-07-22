@@ -45,15 +45,25 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">rimabarman</value>
-    <value name="createdDate">1753154933809</value>
-    <value name="lastModifiedDate">1753154933809</value>
+    <value name="lastModifiedBy">rimabarman</value>
+    <value name="lastModifiedDate">1753154955218</value>
     <value name="displayName">Call_ref1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Reference Data</value>
+          <value name="groupName">referenceData</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">ref1</value>
+          <value name="serviceName">project.testtuesjul.referencedata:ref1</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
