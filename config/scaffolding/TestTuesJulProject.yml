@@ -14,6 +14,20 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.testtuesjul.integrations:Call_TPPService
+  packages:
+  - name: TestTuesJulProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:add3Ints
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
 - serviceName: project.testtuesjul.integrations:Call_ref1
   packages:
   - name: TestTuesJulProject
